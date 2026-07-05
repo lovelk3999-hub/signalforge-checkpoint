@@ -6,4 +6,4 @@ Append new entries at the bottom. Do not rewrite old entries unless correcting a
 
 | # | Change | Result | Notes |
 |---|---|---|---|
-| 1 | Initialized SignalForge Checkpoint files | Done | - |
+| 1 | Initialized fight-on-memory files | Done | - |

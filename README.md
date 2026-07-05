@@ -1,8 +1,8 @@
-# SignalForge Checkpoint
+# fight-on-memory
 
 Three files to keep long-running AI agents from drifting.
 
-SignalForge Checkpoint is a lightweight file protocol for keeping AI coding agents aligned with project state and operating rules during long-running work.
+fight-on-memory is a lightweight file protocol for keeping AI coding agents aligned with project state and operating rules during long-running work.
 
 It helps agents recover from context compaction, session breaks, model switching, and protocol drift without introducing a memory database.
 
@@ -36,7 +36,7 @@ They may forget:
 - which local skill or workflow should be used
 - whether a PreFlight, setup, validation, or checkpoint step is required
 
-SignalForge Checkpoint keeps the active worksite in files, so agents can re-anchor from the project instead of relying on chat memory.
+fight-on-memory keeps the active worksite in files, so agents can re-anchor from the project instead of relying on chat memory.
 
 ## Core Files
 
@@ -55,7 +55,7 @@ LOG.md
 ## Optional Adapter Config
 
 ```text
-.signalforge.toml
+.fightonmemory.toml
 ```
 
 This file is optional. It is for scripts, relay wrappers, editor adapters, or automation layers. Agents do not need to read it directly.
@@ -88,12 +88,12 @@ project/
   AGENTS.md
   STATUS.md
   LOG.md
-  .signalforge.toml
+  .fightonmemory.toml
 ```
 
 Example adapter behavior:
 
-1. Read `.signalforge.toml`.
+1. Read `.fightonmemory.toml`.
 2. Inject `AGENTS.md` and `STATUS.md` before each model request.
 3. Do not inject `LOG.md` by default.
 4. Stop if `STATUS.md` is stale or unclear.

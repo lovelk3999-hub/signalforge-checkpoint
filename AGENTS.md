@@ -37,4 +37,3 @@ Adapters may inject this file and `STATUS.md` before model requests.
 Adapters should not inject `LOG.md` by default, because it can grow large. Use `LOG.md` for recovery, audit, and deeper context only when needed.
 
 If `STATUS.md` is stale or unclear, adapters should stop the agent and request a status refresh.
-

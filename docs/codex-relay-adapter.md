@@ -28,7 +28,7 @@ LOG.md
 ## Expected Behavior
 
 1. Find the project root.
-2. Read `.signalforge.toml` if present.
+2. Read `.fightonmemory.toml` if present.
 3. Load the configured anchor files.
 4. Stop if `STATUS.md` is stale or missing required fields.
 5. Prepend the anchor to the model request.
@@ -38,5 +38,4 @@ LOG.md
 
 Existing relay tools usually translate protocol shapes. They do not understand project status, local skills, or PreFlight rules by themselves.
 
-SignalForge Checkpoint can be implemented as a wrapper before the relay, or as a feature inside a custom relay.
-
+fight-on-memory can be implemented as a wrapper before the relay, or as a feature inside a custom relay.

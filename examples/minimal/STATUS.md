@@ -6,9 +6,8 @@
 
 ## Current State
 
-This is a minimal SignalForge Checkpoint example.
+This is a minimal fight-on-memory example.
 
 ## Blockers
 
 - None.
-

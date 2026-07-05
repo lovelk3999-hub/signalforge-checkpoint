@@ -4,6 +4,6 @@
 
 - Initial public alpha.
 - Added the core three-file protocol: `AGENTS.md`, `STATUS.md`, `LOG.md`.
-- Added optional adapter config: `.signalforge.toml`.
+- Added optional adapter config: `.fightonmemory.toml`.
 - Added Codex relay adapter notes.
 - Added minimal starter templates.

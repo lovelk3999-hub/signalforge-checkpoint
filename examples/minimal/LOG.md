@@ -5,4 +5,3 @@
 | # | Change | Result |
 |---|---|---|
 | 1 | Initialized minimal checkpoint files | Done |
-
