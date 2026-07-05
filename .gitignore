@@ -1,0 +1,18 @@
+# OS
+Thumbs.db
+Desktop.ini
+
+# Logs and local state
+*.log
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Local secrets
+.env
+.env.*
+secrets/
+apikey/
+

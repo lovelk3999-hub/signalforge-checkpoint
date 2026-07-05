@@ -1,0 +1,15 @@
+[anchor]
+inject = ["AGENTS.md", "STATUS.md"]
+exclude = ["LOG.md"]
+max_chars = 12000
+stale_after_minutes = 20
+
+[protocol]
+preflight_required = true
+check_skill_triggers = true
+guard_before_tools = true
+
+[adapters.codex_relay]
+enabled = false
+mode = "prepend_system"
+
