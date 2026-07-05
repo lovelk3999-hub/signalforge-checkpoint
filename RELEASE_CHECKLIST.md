@@ -12,6 +12,7 @@
 - [x] Push initial commit.
 - [x] Add repository description and topics.
 - [x] Create v0.1.0 release tag.
+- [x] Rename repository to fight-on-memory.
 
 ## Suggested GitHub Topics
 
@@ -20,7 +21,9 @@ ai-agents
 coding-agents
 checkpoint
 agent-memory
+ai-memory
 context-recovery
+context-compression
 codex
 deepseek
 llm-tools

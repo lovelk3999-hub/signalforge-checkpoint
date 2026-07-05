@@ -1,8 +1,8 @@
 # STATUS
 
 > Updated: 2026-07-05
-> Current task: Rename the public repository to fight-on-memory.
-> Next step: Push the rename commit and update GitHub repository metadata.
+> Current task: fight-on-memory v0.1.0 is published.
+> Next step: Plan v0.2 adapter wrapper or checkpoint scripts.
 
 ## Current State
 
@@ -26,7 +26,8 @@ fight-on-memory is a lightweight file protocol for keeping long-running AI agent
 - Include protocol compliance as part of anti-drift, not as a separate project.
 - Use MIT License for the first public release.
 - Use repository name `fight-on-memory`.
+- Ship v0.1 as protocol, templates, and docs before adding a working adapter.
 
 ## Open Questions
 
-- Decide whether the first release should include a working relay wrapper or only protocol templates.
+- Should v0.2 add a working relay wrapper, minimal checkpoint scripts, or both?
